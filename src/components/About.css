@@ -1,0 +1,25 @@
+.about-container {
+  background-image: url("../images/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-top: 300px;
+  height: 700px;
+  width: auto;
+}
+.heading {
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 80px;
+}
+.heading-description {
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 3.5rem;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,8 @@
+.container-footer {
+  display: flex;
+  height: 260px;
+  width: 100%;
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-left: 260px;
+}

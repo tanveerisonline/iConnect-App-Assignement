@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+  color: #111;
+}
+.logo-link {
+  pointer-events: none;
+}
+
+header {
+  width: 100%;
+  height: 3em !important;
+  opacity: -20;
+}
+.navbar {
+  width: 100% !important;
+  height: 5rem !important;
+  background-color: rgba(255, 255, 255, 0.87);
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  opacity: 1;
+  position: fixed !important;
+  margin-left: -12px;
+  z-index: 10000 !important;
+}
+.logo {
+  color: #fff;
+  padding: 2px 5px 5px 30px;
+  min-height: 1em;
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: 500;
+}
+.navbar_item_list {
+  display: flex;
+}
+.navbar_item,
+a {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  text-decoration: none !important;
+  color: #111 !important;
+}
+.button-eligible {
+  padding: 5px 5px;
+  text-align: center;
+  width: 160px;
+  min-height: 2em;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #ff6666;
+  font-family: Jost;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/bg-1.jpg");
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 0px;
+  width: 100%;
+}
+.text-center-1 {
+  position: absolute;
+  line-height: 3rem;
+  font-weight: 700;
+  font-size: 45px;
+  color: #111;
+  top: 190px;
+  left: 300px;
+}
+.text-center-2 {
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #111;
+  top: 350px;
+  left: 300px;
+}
+.button-eligible-2 {
+  position: absolute;
+  background-color: #ff6666;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  top: 500px;
+  left: 300px;
+}
+
+.learn-more-button {
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #ff6666;
+  border-color: #ff6666;
+  background: none;
+  width: 115px;
+  height: 50px;
+  top: 500px;
+  left: 480px;
+}
+
+@media screen and (max-width: 1025px) {
+  .bg-img {
+    height: 560px;
+  }
+  .text-center-1 {
+    position: absolute;
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 30px;
+    color: #111;
+    top: 145px;
+    left: 110px;
+    line-height: 35px;
+  }
+  .text-center-2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #111;
+    top: 260px;
+    left: 108px;
+  }
+  .button-eligible-2 {
+    position: absolute;
+    background-color: #ff6666;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    top: 400px;
+    left: 108px;
+  }
+  .learn-more-button {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ff6666;
+    border-color: #ff6666;
+    background: none;
+    width: 115px;
+    height: 50px;
+    top: 400px;
+    left: 280px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .navbar_item,
+  a {
+    padding: 5px 5px;
+  }
+}

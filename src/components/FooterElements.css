@@ -1,0 +1,29 @@
+.element-wrapper {
+  display: flex;
+  /* flex-direction: row; */
+}
+.address-title {
+  padding: 0px 0px 0px 15px;
+  margin: 7px 40px -10px 5px;
+}
+.footer-address,
+.link-title {
+  line-height: 3rem;
+}
+.footer-detail,
+.footer-details {
+  line-height: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.link-title {
+  padding: 0px 0px 6px 12px;
+  margin: 0px;
+}
+.link-name {
+  line-height: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ff6666 !important;
+}

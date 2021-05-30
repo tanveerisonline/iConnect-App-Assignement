@@ -1,0 +1,24 @@
+.text-center-3 {
+  float: left;
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 1.5rem;
+  color: #111;
+}
+.text-center-4 {
+  float: left;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5rem;
+  color: #111;
+}
+
+@media screen and (max-width: 1025px) {
+  .text-center-3,
+  .text-center-4 {
+    margin-left: 200px;
+  }
+}

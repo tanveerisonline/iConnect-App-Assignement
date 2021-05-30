@@ -1,0 +1,42 @@
+.vertical-line {
+  border-left: 4px solid #ff6666;
+  height: 400px;
+  width: 60%;
+  left: 0%;
+  margin-left: 5%;
+  top: 0;
+  background-color: #fafafa;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  border-radius: 6px;
+}
+.title-heading {
+  text-align: left;
+  padding: 40px 0px 40px 50px;
+}
+.paragraph {
+  text-align: left;
+  padding: 0px 0px 0px 50px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .vertical-line {
+    height: 400px;
+    width: 75%;
+    margin-top: 150px;
+  }
+  .title-heading {
+    text-align: left;
+    padding: 40px 0px 7px 35px;
+  }
+  .paragraph {
+    text-align: left;
+    padding: 0px 0px 3px 35px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+}

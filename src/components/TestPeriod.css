@@ -1,0 +1,43 @@
+.number {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50px;
+  text-align: center;
+  padding: 4px;
+  /* margin: 12px; */
+  border: 1px solid #efefef;
+}
+.circular-points {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.circular-points tr td {
+  padding-left: 10px;
+}
+.period-title {
+  /* float: left; */
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.period-description {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.period-desc {
+  border-left: 1px solid #efefef;
+  margin-left: 27px;
+  padding-left: 24px;
+  text-align: left;
+  /* margin-top: 22px; */
+  min-height: 55px;
+}
+.remove-border-left {
+  border: none !important;
+}

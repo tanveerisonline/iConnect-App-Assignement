@@ -1,0 +1,45 @@
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.facilities-wrapper {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inside-wrap {
+  width: 100%;
+  display: block;
+}
+.image-div {
+  margin-top: 18%;
+  width: 50%;
+  float: right;
+}
+
+.facility-image {
+  width: 400px;
+  height: 320px;
+}
+
+.facility-body {
+  margin-top: 18%;
+  width: 50%;
+  text-align: left !important;
+  float: left;
+  padding: 12% 0px 12% 4%;
+  /* margin: 10px; */
+}
+/* .research-title {
+  margin-top: 30%;
+  float: right;
+} */
+/* .research-description {
+   float: right; 
+} */

@@ -1,0 +1,44 @@
+.side-cards {
+  display: inline-block !important;
+  position: static !important;
+  margin-left: 15%;
+  margin-right: -14%;
+  float: left;
+  width: 35%;
+  padding: 16px 2px 2px 1px;
+}
+.card-body {
+  height: 180px;
+  background-color: #fafafa;
+  padding: 15px 0px 0px 8px !important;
+  border-radius: 10px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 26px;
+  padding: 15px 20px;
+}
+.card-description {
+  padding: 0px 20px;
+  font-family: Jost;
+  font-size: 20px;
+  line-height: 12px;
+}
+
+@media screen and (max-width: 1025px) {
+  .card-title {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 9px 10px;
+  }
+  .card-description {
+    padding: 0px 10px;
+    font-family: Jost;
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .desc {
+    font-size: 17px;
+    line-height: 0px;
+  }
+}

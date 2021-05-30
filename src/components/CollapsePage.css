@@ -1,0 +1,52 @@
+.accordion {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  z-index: auto;
+}
+.accordion-body {
+  background-color: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  padding: 0 !important;
+}
+.accordion-title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.card-header:first-child {
+  background: none !important;
+  border-top: none;
+}
+
+.custom-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 0.25rem;
+  font-size: 17px;
+}
+.custom-carat {
+  background-image: url("../images/arrow-down.png");
+  background-position: 98% 13px;
+  background-repeat: no-repeat;
+}
+.custom-card-body {
+  background-color: #fff !important;
+}
+.Question-title {
+  font-size: 26px;
+  font-weight: 800;
+}
+.answer {
+  font-size: 24px;
+}

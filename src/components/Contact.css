@@ -1,0 +1,24 @@
+.contact {
+  height: 400px;
+  width: 100%;
+  background-color: #fafafa;
+  padding-left: 280px;
+}
+.contact-title {
+  line-height: 40px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.email-address,
+.phone-no,
+.contact-no {
+  font-weight: 500;
+  font-size: 18px;
+}
+.copyright {
+  margin-top: 170px;
+  padding-bottom: 50px;
+  color: #929294;
+  font-size: 22px;
+  word-spacing: 4px;
+}
